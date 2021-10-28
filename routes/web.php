@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('usuarios.listar');
-});
 
+//Listado
+Route::get('/', 'UserController@list'); 
+
+//Formulario para los usuarios
 Route::get('/form','UserController@userform');
+//Para guardar los usuarios
 Route::match(['get','post'], '/save','UserController@save')->name('save');

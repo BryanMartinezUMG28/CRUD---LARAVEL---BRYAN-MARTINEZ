@@ -7,7 +7,7 @@
 
         <!-- Mensaje flash -->
         @if(session('usuarioGuardado'))
-        <div class="alert alert-sucess">
+        <div class="alert alert-success">
             {{  session('usuarioGuardado' )}}
         </div>
         @endif

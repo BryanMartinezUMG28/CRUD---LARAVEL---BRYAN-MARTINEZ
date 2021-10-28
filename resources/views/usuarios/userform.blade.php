@@ -25,7 +25,7 @@
         @endif
 
             <div class="card">
-                <form action="{{route('save')}}" method="POST">
+                <form action="{{ url('/save')}}" method="POST">
                 @csrf
                     <div class="card-header text-center">AGREGAR USUARIO</div>
 

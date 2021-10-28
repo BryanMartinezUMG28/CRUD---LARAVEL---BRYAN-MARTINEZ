@@ -51,4 +51,7 @@
             </div>
         </div>
     </div>
+
+<a class="btn btn-outline-info btn-xs mt-5" href=" {{ url('/') }}">&laquo volver</a>
+
 </div>
